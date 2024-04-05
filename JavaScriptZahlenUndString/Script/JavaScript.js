@@ -7,10 +7,12 @@
     if (document.getElementById("radioGGT").checked)
     {
         aufgabe1.onclick = ggt;
+        aufgabe1.onclick - kgt;
     }
     else
     {
         aufgabe1.onclick = kgt;
+        aufgabe1.onclick - ggt;
     }
     
     
