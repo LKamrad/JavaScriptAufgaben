@@ -12,13 +12,15 @@ function probability(a)
     }
     return arr;
 }
-function ausgabe(wurfe, ...numbers)
+function ausgabe(wurfe, numbers)
 {
     console.log("Würfelstatistik");
     console.log(`Bei ${wurfe} Würfen entfielen`);
+    let seite = 1;
     for (let i in numbers)
     {
-        console.log("auf die 1: "+ i +" Würfe");
+        console.log("auf die " + seite + ": " + numbers[i] + " Würfe");
+        seite++;
     }
 }
 

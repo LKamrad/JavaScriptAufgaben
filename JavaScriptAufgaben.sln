@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptAufgaben", "JavaS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AufgabeFunktionen", "AufgabeFunktionen\AufgabeFunktionen.csproj", "{AF33A98E-F2B8-49E4-9516-19F489F6FE99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptEinfacheEvents", "JavaScriptEinfacheEvents\JavaScriptEinfacheEvents.csproj", "{0293FDD4-B3F0-4780-8463-0C372BA22196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptPassword", "JavaScriptPassword\JavaScriptPassword.csproj", "{0F641760-8464-4380-B524-2B0292EE4D68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptPasswordAfg2", "JavaScriptPasswordAfg2\JavaScriptPasswordAfg2.csproj", "{77679025-4AE6-4BDE-9CA4-7648004780E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptZahlenUndString", "JavaScriptZahlenUndString\JavaScriptZahlenUndString.csproj", "{AAF11E62-97EC-41F6-9E03-72A544DBFE6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +29,22 @@ Global
 		{AF33A98E-F2B8-49E4-9516-19F489F6FE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF33A98E-F2B8-49E4-9516-19F489F6FE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF33A98E-F2B8-49E4-9516-19F489F6FE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0293FDD4-B3F0-4780-8463-0C372BA22196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0293FDD4-B3F0-4780-8463-0C372BA22196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0293FDD4-B3F0-4780-8463-0C372BA22196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0293FDD4-B3F0-4780-8463-0C372BA22196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F641760-8464-4380-B524-2B0292EE4D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F641760-8464-4380-B524-2B0292EE4D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F641760-8464-4380-B524-2B0292EE4D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F641760-8464-4380-B524-2B0292EE4D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77679025-4AE6-4BDE-9CA4-7648004780E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77679025-4AE6-4BDE-9CA4-7648004780E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77679025-4AE6-4BDE-9CA4-7648004780E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77679025-4AE6-4BDE-9CA4-7648004780E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF11E62-97EC-41F6-9E03-72A544DBFE6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF11E62-97EC-41F6-9E03-72A544DBFE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF11E62-97EC-41F6-9E03-72A544DBFE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF11E62-97EC-41F6-9E03-72A544DBFE6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
