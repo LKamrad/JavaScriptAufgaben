@@ -2,7 +2,18 @@
 {
     let aufgabe1 = document.getElementById("ggtButton");
 
-    aufgabe1.onclick = ggt;
+
+
+    if (document.getElementById("radioGGT").checked)
+    {
+        aufgabe1.onclick = ggt;
+    }
+    else
+    {
+        aufgabe1.onclick = kgt;
+    }
+    
+    
 
 
 }
@@ -10,6 +21,7 @@
 
 function ggt()
 {
+    
     let ggt1 = document.getElementById("ggt1").value;
     let ggt2 = document.getElementById("ggt2").value;
     console.log("ggt1: " + ggt1 + "ggt2: " + ggt2);
@@ -46,5 +58,5 @@ function ggt()
 }
 function kgt()
 {
-
+    
 }
