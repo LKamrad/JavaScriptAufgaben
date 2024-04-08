@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptPasswordAfg2", "J
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptZahlenUndString", "JavaScriptZahlenUndString\JavaScriptZahlenUndString.csproj", "{AAF11E62-97EC-41F6-9E03-72A544DBFE6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptOOP1", "JavaScriptOOP1\JavaScriptOOP1.csproj", "{CCDDBCB2-92E6-4DA9-BB01-78C2F2C74E1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{AAF11E62-97EC-41F6-9E03-72A544DBFE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAF11E62-97EC-41F6-9E03-72A544DBFE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAF11E62-97EC-41F6-9E03-72A544DBFE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCDDBCB2-92E6-4DA9-BB01-78C2F2C74E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDDBCB2-92E6-4DA9-BB01-78C2F2C74E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDDBCB2-92E6-4DA9-BB01-78C2F2C74E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDDBCB2-92E6-4DA9-BB01-78C2F2C74E1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
