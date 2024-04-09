@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/JavaScript.js"></script>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td><label>Große der Datei: </label></td>
+            <td><input type="text" name="name" value="" /></td>
+            <td>
+                <select name="dataSize" id="dataSize">
+                    <option value="1024">Kb</option>
+                    <option value="1048576">Mb</option>
+                    <option value="1073741824">Gb</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Geschwindigkeit: </label></td>
+            <td><input type="text" id="geschwindigkeit" name="name" value="" /></td>
+            <td>
+                <select name="dataSpeed" id="dataSpeed">
+                    <option value="1000">Kbit/s</option>
+                    <option value="1000000">Mbit/s</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Standartgeschwindigkeiten: </label>
+            </td>
+            <td colspan="3">
+                <input type="radio" id="standdard06" name="standarts" value="6" />
+                <label for="standdard06">6 Mbit/s: </label>
+                <input type="radio" id="standdard16" name="standarts" value="16" />
+                <label for="standdard16">16 Mbit/s: </label>
+                <input type="radio" id="standdard50" name="standarts" value="50" />
+                <label for="standdard50">50 Mbit/s: </label>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Dauer: </label></td>
+            <td><input type="text" id="dauerErgebnis" name="name" value="" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button id="Calculate">Berechnen</button></td>
+        </tr>
+    </table>
+
+</body>
+</html>

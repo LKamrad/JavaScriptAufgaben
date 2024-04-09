@@ -1,0 +1,87 @@
+﻿<Window x:Class="GermanApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GermanApp"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+    <Grid>
+        <Button Content="Answer A"
+                HorizontalAlignment="Left"
+                Margin="25,217,0,0"
+                VerticalAlignment="Top"
+                RenderTransformOrigin="-0.883,-0.248"
+                Height="50"
+                Width="170" />
+        <Button Content="Answer B"
+                HorizontalAlignment="Left"
+                Margin="240,217,0,0"
+                VerticalAlignment="Top"
+                RenderTransformOrigin="-0.883,-0.248"
+                Height="50"
+                Width="170" />
+        <Button Content="Answer C"
+                HorizontalAlignment="Left"
+                Margin="25,289,0,0"
+                VerticalAlignment="Top"
+                RenderTransformOrigin="-0.883,-0.248"
+                Height="50"
+                Width="170" />
+        <Button Content="Answer D"
+                HorizontalAlignment="Left"
+                Margin="240,289,0,0"
+                VerticalAlignment="Top"
+                RenderTransformOrigin="-0.883,-0.248"
+                Height="50"
+                Width="170" />
+        <Button Content="Answer E"
+                HorizontalAlignment="Left"
+                Margin="25,359,0,0"
+                VerticalAlignment="Top"
+                RenderTransformOrigin="-0.883,-0.248"
+                Height="50"
+                Width="170" />
+        <Button Content="I don't know"
+                HorizontalAlignment="Left"
+                Margin="240,359,0,0"
+                VerticalAlignment="Top"
+                RenderTransformOrigin="-0.883,-0.248"
+                Height="50"
+                Width="170" />
+        <ListView HorizontalAlignment="Left"
+                  Height="414"
+                  Margin="475,0,0,0"
+                  VerticalAlignment="Center"
+                  Width="315"
+                  d:ItemsSource="{d:SampleData ItemCount=5}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="Word"
+               HorizontalAlignment="Left"
+               Height="100"
+               Margin="55,104,0,0"
+               VerticalAlignment="Top"
+               Width="345"
+               FontSize="16" />
+        <Label Content="Correct"
+               HorizontalAlignment="Left"
+               Height="29"
+               Margin="55,40,0,0"
+               VerticalAlignment="Top"
+               Width="85" />
+        <Label Content="Left"
+               HorizontalAlignment="Left"
+               Height="29"
+               Margin="315,40,0,0"
+               VerticalAlignment="Top"
+               Width="85" />
+
+    </Grid>
+</Window>
